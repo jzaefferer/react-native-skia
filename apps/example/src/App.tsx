@@ -186,9 +186,6 @@ const App = () => {
             <Stack.Screen
               name="AnimatedBlurMask"
               component={AnimatedBlurMask}
-              options={{
-                header: () => null,
-              }}
             />
             <Stack.Screen
               name="FrostedCard"
