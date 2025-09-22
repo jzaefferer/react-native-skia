@@ -15,6 +15,7 @@ export type StackParamList = {
   Matrix: undefined;
   Severance: undefined;
   Aurora: undefined;
+  AnimatedBlurMask: undefined;
   Glassmorphism: undefined;
   Neumorphism: undefined;
   Wallpaper: undefined;

@@ -34,6 +34,7 @@ import {
   Chat,
   LiquidGlass,
 } from "./Examples";
+import { AnimatedBlurMask } from "./Examples/AnimatedBlurMask";
 import { CI, Tests } from "./Tests";
 import { HomeScreen } from "./Home";
 import type { StackParamList } from "./types";
@@ -56,6 +57,7 @@ const linking: LinkingOptions<StackParamList> = {
       Aurora: "aurora",
       Chess: "chess",
       Glassmorphism: "glassmorphism",
+      AnimatedBlurMask: "animatedBlurMask",
       Neumorphism: "neumorphism",
       Wallpaper: "wallpaper",
       Wallet: "wallet",
@@ -177,6 +179,13 @@ const App = () => {
             <Stack.Screen
               name="Glassmorphism"
               component={Glassmorphism}
+              options={{
+                header: () => null,
+              }}
+            />
+            <Stack.Screen
+              name="AnimatedBlurMask"
+              component={AnimatedBlurMask}
               options={{
                 header: () => null,
               }}

@@ -7,6 +7,11 @@ export const HomeScreen = () => {
   return (
     <ScrollView>
       <HomeScreenButton
+        title="AnimatedBlurMask"
+        description="AnimatedBlurMask"
+        route="AnimatedBlurMask"
+      />
+      <HomeScreenButton
         title="🔧 E2E Tests"
         description="Run integration tests"
         route="Tests"
